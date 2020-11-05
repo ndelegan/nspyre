@@ -1,4 +1,4 @@
-"""
+ """
 This module defines basic constants and functions that will be used
 throughout nspyre
 
@@ -27,6 +27,10 @@ Q_ = ureg.Quantity
 
 # root directory of nspyre
 NSPYRE_ROOT = Path(__file__).parent
+
+def this_does_nothing():
+    print('nothing')
+    return
 
 def join_nspyre_path(path):
     """Return a full path from a path given relative to the nspyre root 
